@@ -18,6 +18,9 @@
 		8F9A9E602B6ECC1000B1C97C /* Bevo2Bevo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8F9A9E5E2B6ECC1000B1C97C /* Bevo2Bevo.xcdatamodeld */; };
 		8F9A9E622B6ECC1100B1C97C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F9A9E612B6ECC1100B1C97C /* Assets.xcassets */; };
 		8F9A9E652B6ECC1100B1C97C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F9A9E632B6ECC1100B1C97C /* LaunchScreen.storyboard */; };
+		8F9A9E712B6F32C200B1C97C /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9A9E702B6F32C200B1C97C /* FoodViewController.swift */; };
+		8F9A9E732B6F395000B1C97C /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9A9E722B6F395000B1C97C /* CartViewController.swift */; };
+		8F9A9E752B6F429900B1C97C /* SuppliesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9A9E742B6F429900B1C97C /* SuppliesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,9 @@
 		8F9A9E612B6ECC1100B1C97C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F9A9E642B6ECC1100B1C97C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F9A9E662B6ECC1100B1C97C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F9A9E702B6F32C200B1C97C /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
+		8F9A9E722B6F395000B1C97C /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		8F9A9E742B6F429900B1C97C /* SuppliesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuppliesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +76,9 @@
 				8F9A9E572B6ECC1000B1C97C /* SceneDelegate.swift */,
 				8F9A9E592B6ECC1000B1C97C /* ViewController.swift */,
 				8F9A9E5B2B6ECC1000B1C97C /* Main.storyboard */,
+				8F9A9E742B6F429900B1C97C /* SuppliesViewController.swift */,
+				8F9A9E722B6F395000B1C97C /* CartViewController.swift */,
+				8F9A9E702B6F32C200B1C97C /* FoodViewController.swift */,
 				35E451702B6EF27B00DD6E69 /* UserProfile.swift */,
 				35E451762B6F00C800DD6E69 /* EidAndPassword.swift */,
 				35E451722B6EF3B700DD6E69 /* PurchasedStats.swift */,
@@ -153,10 +162,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F9A9E752B6F429900B1C97C /* SuppliesViewController.swift in Sources */,
 				8F9A9E602B6ECC1000B1C97C /* Bevo2Bevo.xcdatamodeld in Sources */,
 				35E451732B6EF3B700DD6E69 /* PurchasedStats.swift in Sources */,
+				8F9A9E732B6F395000B1C97C /* CartViewController.swift in Sources */,
 				8F9A9E5A2B6ECC1000B1C97C /* ViewController.swift in Sources */,
 				35E451712B6EF27B00DD6E69 /* UserProfile.swift in Sources */,
+				8F9A9E712B6F32C200B1C97C /* FoodViewController.swift in Sources */,
 				35E451752B6EFC4700DD6E69 /* DonatedStats.swift in Sources */,
 				8F9A9E562B6ECC1000B1C97C /* AppDelegate.swift in Sources */,
 				8F9A9E582B6ECC1000B1C97C /* SceneDelegate.swift in Sources */,
